@@ -1,0 +1,67 @@
+.content{
+    background-image:  url("../bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ion-header-bar.bar-stable.bar.bar-header{
+    background-color: #2C2A36;
+}
+@font-face {
+    font-family: 'bavroregular';
+    src: url('bavro-regular-webfont.eot');
+    src: url('bavro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bavro-regular-webfont.woff2') format('woff2'),
+         url('bavro-regular-webfont.woff') format('woff'),
+         url('bavro-regular-webfont.ttf') format('truetype'),
+         url('bavro-regular-webfont.svg#bavroregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.bar.bar-stable .title{
+    color: #6DB792;
+    font-family: 'bavroregular';
+    font-size: 2.0em;
+}
+div.list.card
+{
+        min-height: 575px;
+        background: transparent;
+}
+.item{
+    background: transparent;
+}
+.button{
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+p.temparature{
+    color:  #222131;
+    font-weight: bolder;
+    font-size: 1.7em;
+    display: block; 
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif ;
+}
